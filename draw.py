@@ -27,7 +27,7 @@ class Draw:
         pygame.display.flip()
 
     def draw_menu(self):
-        self.draw_text("Harry's Game", self.title_font, (255, 255, 255), self.game.width // 2, 160)
+        self.draw_text("Robot Escape", self.title_font, (255, 255, 255), self.game.width // 2, 160)
         for index, option in enumerate(self.game.menu_options):
             y = 300 + index * 60
             if index == self.game.selected_option:
