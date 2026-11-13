@@ -40,7 +40,7 @@ class Game:
         self.draw = Draw(self)
         self.clock = pygame.time.Clock()
 
-        pygame.display.set_caption("Harry's Game")
+        pygame.display.set_caption("Robot Escape")
         self.state = "menu"
         self.running = True
 
